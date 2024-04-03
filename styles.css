@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dark-theme {
+    background-color: black;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+.cta-button {
+    background-color: #ffc107;
+    color: #333;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffdb4d;
+}
+/* Existing CSS code */
+
+.hero {
+    background-image: url('burger-hero3.jpg') ;
+    background: linear-gradient rgba(0,0,0,0.3);
+    background-size: cover;
+    
+    background-position: right;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    max-width: 450px;
+    
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Existing CSS code */
+/* Existing CSS code */
+
+.featured-menu {
+    padding: 50px 0;
+}
+
+.featured-menu h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 0 20px 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.menu-item span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+/* Existing CSS code */
+/* Existing CSS code */
+
+.about-us {
+    padding: 50px 0;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.about-content img {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Existing CSS code */
+/* Existing CSS code */
+
+.testimonials {
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    width: 220px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial span {
+    font-size: 14px;
+    font-style: italic;
+    color: #ccc;
+}
+
+/* Existing CSS code */
+/* Existing CSS code */
+
+.promotions {
+    padding: 50px 0;
+}
+
+.promotions h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.promotion {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width:280px;
+}
+
+.promotion h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.promotion p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Existing CSS code */
+/* Existing CSS code */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-nav ul li a:hover {
+    color: #ffc107;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.legal-links a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.legal-links a:hover {
+    color: #ffc107;
+}
+
+/* Existing CSS code */
